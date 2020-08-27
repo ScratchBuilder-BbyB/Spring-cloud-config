@@ -1,0 +1,10 @@
+app:
+  desc: This is a project focused on learning spring configuration
+  name: This is conf app and gere is the description ${app.desc}
+db:
+  creds: '{url : ''db connection URL ${profile}'', user : ''dev ${profile}'', password : ''dev ${profile}''}'
+  host: local host
+  port: 7462
+my:
+  greeting: Hello World "${app.name}"
+  list: one,two,three
